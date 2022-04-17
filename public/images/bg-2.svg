@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2510px" height="1024px" viewBox="0 0 2510 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Desktop HD Copy</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="55.4716747%" id="radialGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0055FF" offset="99.8115166%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="2510" height="1024"></rect>
+        <g id="Group-3" transform="translate(1255.000000, 1208.582790) scale(-1, 1) translate(-1255.000000, -1208.582790) translate(196.000000, 150.082790)" fill="url(#radialGradient-1)" opacity="0.846774472">
+            <g id="Group-2" transform="translate(1058.866595, 1058.500000) scale(-1, 1) translate(-1058.866595, -1058.500000) translate(0.366595, 0.000000)">
+                <circle id="Oval" opacity="0.239328182" cx="1058.42226" cy="1058.42226" r="440.066332"></circle>
+                <circle id="Oval-Copy" opacity="0.239328182" cx="1058.42226" cy="1058.42226" r="622.566454"></circle>
+                <circle id="Oval-Copy-2" opacity="0.142056813" cx="1058.42226" cy="1058.42226" r="833.302444"></circle>
+                <circle id="Oval-Copy-17" opacity="0.0920122932" cx="1058.42226" cy="1058.42226" r="1057.81203"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

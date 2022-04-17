@@ -5,8 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import react, {Component} from "react";
 import {Mydata} from "../components/carouselData";
 
-import { IoIosArrowBack , IoIosArrowForward } from 'react-icons/Io';
-
 export default class Carousel extends Component {
     constructor(props) {
       super(props);
@@ -77,10 +75,10 @@ export default class Carousel extends Component {
                       </p>
                       <div className=" flex mx-auto justify-center py-10 ">
                           <button className="button text-white p-6 rounded-2xl border-[1px] border-white mx-2" onClick={this.previous}>
-                            <IoIosArrowBack/>
+                            Prev
                           </button>
                           <button className="button text-white p-6 rounded-2xl border-[1px] border-white mx-2" onClick={this.next}>
-                              <IoIosArrowForward/>
+                              Next
                           </button>
                       </div>
                   </div>

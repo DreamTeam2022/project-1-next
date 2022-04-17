@@ -7,14 +7,14 @@ import NFTNavbar from '../../components/nftnavbar';
 
 import React from 'react'
 
-export default function index() {
+function Guides() {
     const [APIData, setAPIData] = useState([])
     useEffect(() => {
     axios.get('https://api.opensea.io/api/v1/assets?limit=100')
       .then((response) => {
                 setAPIData(response.data.assets);
             }).catch(err => console.log(err))
-    }, [])
+    }, []) 
 
     const childToParent = () => {
         setAPIData();
@@ -59,3 +59,5 @@ export default function index() {
         </>
       )
 }
+
+export default Guides;
